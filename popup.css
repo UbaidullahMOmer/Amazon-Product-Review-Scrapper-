@@ -1,0 +1,22 @@
+body {
+    width: 300px;
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
