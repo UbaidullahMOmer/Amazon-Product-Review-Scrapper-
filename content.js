@@ -33,4 +33,9 @@ function downloadCompanyLogos() {
       });
     }
   });
+  chrome.runtime.sendMessage({
+    action: "download",
+    url: logoUrl,
+    filename: logoName,
+  });
 }
